@@ -40,36 +40,6 @@
 
 // https://www.reddit.com/prefs/feeds/
 
-// // my inbox
-// const axios = require('axios');
-// require('dotenv').config();
-
-// const inbox = process.env.INBOX 
-
-// axios.get('https://www.reddit.com/message/inbox/' + inbox,{
-//     params: {
-//       limit: 200
-//      }
-//   })
-//   .then((response) => {
-//     let dataLength = response.data.data.children
-//     let count = 0
-//     for(var i=0; i < dataLength.length; i++){
-//         const messagesIn = response.data.data.children[i].data.body
-//         // console.log(messagesIn);     
-//         // console.log(messagesIn.includes("Trump"))         
-//         if (messagesIn.includes("Trump")){
-//             count++ 
-//         }
-//     }  
-//     console.log(count)
-                 
-//   })
-//   .catch((error) => {
-//       console.log(error)
-//   });
-
-// everyone's inbox
 
 // my inbox
 const axios = require('axios');
